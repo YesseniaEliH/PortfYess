@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <title>Portafolio Yess</title>
+    <meta content="Portafolio Yessenia Huamán" name="description">
+    <meta content="3" data-name="image_counter">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/flexboxgrid/6.3.0/flexboxgrid.min.css" rel="stylesheet">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <div class="video-container">
+        <!-- Width and height attrs are ok on media and images -->
+        <video autoplay height="720" loop poster="videos/images/Aloha-Mundo.jpg" width="1280">
+            <source src="videos/mp4/Aloha-Mundo.mp4" type="video/mp4">
+            <source src="videos/webm/Aloha-Mundo.webm" type="video/webm">
+        </video>
+    </div>
+    <div class="row middle-xs full-height center-xs up relative" id="Inicio">
+        <div class="col-xs-12">
+            <div class="box">
+                <h1 class="white-text title dancingScript no-margin">Yessenia E. Huamán Atencio</h1>
+                <div class="console-container">
+                    <span id="text">
+                        <div class="console-underscore" id="console-menu"></div>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <nav class="fixed top up main-nav" id="navigation">
+            <ul class="list-inline">
+                <li>
+                    <a class="medium lato" href="#Inicio">
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a class="medium lato" href="#sobremi">
+                        Sobre mí
+                    </a>
+                </li>
+                <li>
+                    <a class="medium lato" href="#Skills">
+                        Skills
+                    </a>
+                </li>
+                <li>
+                    <a class="medium lato" href="#Portafolio">
+                        Portafolio
+                    </a>
+                </li>
+                <li>
+                    <a class="btn btn-danger small " onclick="openChat()" href="javascript:void(Tawk_API.toggle())">
+                        Contáctame
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="absolute full-width medium colorYess large-padding" id="description">
+            <div class="row middle-xs center-xs">
+                <div class="col-xs-8 col-sm-6 white-text lato">
+                    <a class="ayess" href="imgs/cvyess.pdf">            
+                        <img class="img-responsive" style="display:inline-block;" width="35" src="imgs/gallery/userfem.png">
+                        <div style="display:inline-block;"> Descargar mi CV</div></a>
+                </div>
+                <div class="col-xs hidden" id="sticky-navigation">
+                    <div class="box">
+                        <nav class="text-right main-nav middle-xs up--2 navigation" id="responsive-nav">
+                            <i class="glyphicon glyphicon-menu-hamburger glyphicon-remove white-text medium"
+                                id="menu-opener"></i>
+                            <ul class="list-inline">
+                                <li>
+                                    <a class="black-text" href="#Inicio">
+                                        Inicio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="black-text" href="#sobremi">
+                                        Sobre mí
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="black-text" href="#Skills">
+                                        Skills
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="black-text" href="#Portafolio">
+                                        Portafolio
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="black-text" href="javascript:void(Tawk_API.toggle())">
+                                        Contáctame
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="relative" id="sobremi">
+        <div class="inner">
+            <div class="image" style="background-image:url(imgs/gallery/creative2.jpg)"></div>
+            <div class="image" style="background-image:url(imgs/gallery/creative1.jpg)"></div>
+            <div class="image" style="background-image:url(imgs/gallery/y2.jpeg)"></div>
+        </div>
+    </div>
+    <div class="container relative">
+        <div class="card white-trans relative black-text text-center absolute">
+            <h3 class="slim">
+                <strong class="medium dancingScript">Sobre mí</strong>
+            </h3>
+            <p class="text-justify top-space small">
+                La
+                <strong class="dancingScript medium">informática</strong>
+                , la
+                <strong class="dancingScript medium">programación</strong>
+                y todo lo relacionado con la
+                <strong class="dancingScript medium">tecnología</strong>
+                han sido siempre para mí una pasión, además de ser parte de mi profesión. Me encanta aprender y disfruto
+                superar desafíos.
+                Soy profesional en Ingeniería Ambiental y egresada de la carrera de Ingeniería de Sistemas.
+            </p>
+            <p class="text-justify small">
+                Otros temas que me interesan: la
+                <strong class="dancingScript medium">música</strong>
+                y el
+                <strong class="dancingScript medium">arte</strong>
+                en general, las
+                <strong class="dancingScript medium">antigüedades, viajar</strong>
+                para conocer la diversidad cultural y profundizar en el conocimiento de mi propia
+                <strong class="dancingScript medium">cultura.</strong>
+            </p>
+            <hr>
+            <h3 class="slim">
+                <strong class="medium dancingScript">About me</strong>
+            </h3>
+            <p class="text-justify top-space small">
+                The
+                <strong class="dancingScript medium">computing, programing</strong>
+                and all about with
+                <strong class="dancingScript medium">tech</strong>
+                have always been to me a passion, as well as my profession.I love learning and i enjoy getting through
+                challenges.
+                I am an environmental engineering and graduated in systems engineering.
+            </p>
+            <p class="text-justify small">
+                Others interesting subject to me:
+                <strong class="dancingScript medium">music</strong>
+                , all types of
+                <strong class="dancingScript medium">art, antiques, traveling</strong>
+                traveling to know the cultural diversity and going in depth the knowledge of my own
+                <strong class="dancingScript medium">culture.</strong>
+            </p>
+        </div>
+    </div>
+    <div class="text-center relative white" id="Skills">
+        <div class="container">
+            <h2 class="dancingScript title">
+                My skills
+            </h2>
+            <small class="lato small">Tecnologías usadas en mis proyectos</small>
+        </div>
+        <div class="row">
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">JavaScript</a>
+                        <div id="bar-1" class="bar-main-container yellow">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="76"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            El primer Lenguaje de Programación que aprendí, 
+                            actualmente está presente en todos los ámbitos de desarrollo sobre todo
+                            en el desarrollo web.
+                            
+                        </p>
+                    </div>
+                    <div class="card -small -front">        
+                        <img class="img-responsive skill" src="imgs/skills/js.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">JQuery</a>
+                        <div id="bar-1" class="bar-main-container azure">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="72"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Por el buen manejo de selectores
+                           e integración con AJAX, he usado esta librería JS en muchos
+                          de mis proyectos web.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/jquery.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">VueJS</a>
+                        <div id="bar-1" class="bar-main-container emerald">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="41"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Este framework JS progresivo es bastante intuitivo, Estoy empezando a usarlo.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:40px;" class="img-responsive skill" src="imgs/skills/vuejs.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">PHP</a>
+                        <div id="bar-1" class="bar-main-container blue">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="86"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            El lenguaje de programación web más popular. En mis proyectos lo usé en integración con SQL Server, MySQL y PostgreSQL
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:20px;" class="img-responsive skill" src="imgs/skills/php.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">HTML</a>
+                        <div id="bar-1" class="bar-main-container red">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="96"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Lenguaje de marcado, indispensable para la estructuración en el desarrollo web. 
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/html.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">HAML</a>
+                        <div id="bar-1" class="bar-main-container yellow">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="56"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Lenguaje de marcado ligero que permite escribir la estructura HTML de forma simple apoyado en la identación
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/haml.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">CSS</a>
+                        <div id="bar-1" class="bar-main-container guin">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="93"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Hoja de estilos para un HTML.Tengo un buen manejo de esta herramienta.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/css.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">SCSS</a>
+                        <div id="bar-1" class="bar-main-container azure">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="84"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            El uso de la anidación y variables hace que esta herramienta sea muy práctica. Usada en este portafolio.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/scss.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Bootstrap</a>
+                        <div id="bar-1" class="bar-main-container violet">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="94"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            He usado este framework responsivo en la mayoría  de mis proyectos web.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/bootstrap.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Java</a>
+                        <div id="bar-1" class="bar-main-container emerald">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="51"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Lo usé para el desarrollo mobile con Android Studio. No me resulta tan agradable programar en este lenguaje.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/java.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Git</a>
+                        <div id="bar-1" class="bar-main-container guin">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="81"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Tengo un buen manejo de esta herramienta. Muy útil para el control de versiones de un proyecto y el trabajo en equipos de desarrollo.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:20px;" class="img-responsive skill" src="imgs/skills/git.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">MySQL</a>
+                        <div id="bar-1" class="bar-main-container azure">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="89"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Por la disponibilidad y estabilidad de este motor, lo he usado en la mayoría de mis proyectos.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/mysql.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">PostgreSQL</a>
+                        <div id="bar-1" class="bar-main-container blue">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="69"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Bastante fácil de usar, lo he usado en integración con django de python y zend de php.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/postgresql.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">SQLServer</a>
+                        <div id="bar-1" class="bar-main-container azure">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="71"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Me gusta el buen manejo de consultas de este motor y la importación de datos con excel.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/sqlserver.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">QGis</a>
+                        <div id="bar-1" class="bar-main-container violet">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="73"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Sistema de información geográfica, puede interactuar con Postgres y complementos de Python
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:40px;" class="img-responsive skill" src="imgs/skills/qgis.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Bizagi-Modeler</a>
+                        <div id="bar-1" class="bar-main-container yellow">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="66"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Esta herramienta es muy intuitiva para modelar procesos de negocio.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:25px;" class="img-responsive skill" src="imgs/skills/bizagi-modeler.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Bizagi-Studio</a>
+                        <div id="bar-1" class="bar-main-container red">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="63"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Permite convertir el modelo de Procesos de negocio en aplicaciones
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:25px;" class="img-responsive skill" src="imgs/skills/bizagi-studio.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Python</a>
+                        <div id="bar-1" class="bar-main-container emerald">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="45"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Estoy en proceso de aprendizaje y práctica de este fantástico lenguaje de programación. 
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:25px;" class="img-responsive skill" src="imgs/skills/python.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Django</a>
+                        <div id="bar-1" class="bar-main-container guin">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="40"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Framework de Python para el desarrollo web, utiliza el modelo de desarrollo MTP.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:35px;" class="img-responsive skill" src="imgs/skills/django.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Materialize</a>
+                        <div id="bar-1" class="bar-main-container red">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="70"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Este framework responsivo es bastante fácil de manejar. 
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/materialize.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">MongoDB</a>
+                        <div id="bar-1" class="bar-main-container violet">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="41"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Lo usé en integración con node.js. El paradigma que utiliza es el "No relacional",se le conoce como "NoSQL".
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img class="img-responsive skill" src="imgs/skills/mongodb.png">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 col-sm-3 col-xs-6">
+                 <div class="card-holder">
+                    <div class="card -small -back -flipped">
+                        <a class="card--title" href="#">Wordpress</a>
+                        <div id="bar-1" class="bar-main-container yellow">
+                            <div class="wrap">
+                            <div class="bar-percentage" data-percentage="69"></div>
+                            <div class="bar-container">
+                                <div class="bar"></div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card--text">
+                            Los diversos pluggins le dan un buen respaldo a este Gestor de Contenidos.
+                        </p>
+                    </div>
+                    <div class="card -small -front">
+                        <img style="margin-top:10px;" class="img-responsive skill" src="imgs/skills/wordpress.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center relative" id="Portafolio">
+        <div class="up" id="menu-title">
+            <h2 class="dancingScript title">Mis proyectos</h2>
+            <p>Algunos de los proyectos que realicé, entre simples y complejos.</p>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/sig.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Aplicación SIG</h3>
+                                <p class="white-text">La aplicación permite el ingreso y búsqueda de datos con formularios,
+                                    el trazado de la ruta más corta de un punto a otro, inclusión de imágenes de los puntos espaciales y la publicación web
+                                    del mapa utilizando QGIS. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/adulto.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sitio web para Adultos Mayores</h3>
+                                <p class="white-text"> Está orientado a la educación tecnológica para personas de la tercera edad por medio de videos,
+                                    es una plataforma amigable y sencilla de manejar. Herramientas utilizadas: JavaScript, HTML5, CSS3, Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/sexperto.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sistema Experto</h3>
+                                <p class="white-text">Sencillo sistema experto de predicción del clima para salir a jugar al aire libre, 
+                                    dependiendo de algunas condiciones ambientales. Herramientas utilizadas: JavaScript, HTML5, CSS3, Bootstrap</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+            style="background-color:black;">
+            <img width='350' style="margin: 10px auto;" class="img-responsive" src="imgs/gallery/academic.gif" alt="Pedidos" srcset="">
+            <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sistema Académico</h3>
+                                <p class="white-text">Sistema académico con funcionalidades diferentes para cada tipo de Rol:
+                                    Administrador, Alumno, Docente, Director, Decano, Egresado, Registro Central y de facultad, etc.
+                                   Trabajo realizado en equipo utilizando el framework Zend de PHP en integración con 
+                                   la base de datos PostgreSQL</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+            style="background-color:black;">
+                <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/assist.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sistema de Control de Asistencia</h3>
+                                <p class="white-text">El empleado puede registrar su horario de entrada o salida y presentar una justificación por falta.
+                                    El administrador puede gestionar los horarios, empleados, puestos,aceptar o rechazar justificaciones.
+                                    y generar reportes. Herramientas utilizadas: PHP, JavaScript, HTML5, CSS3, Bootstrap, MySQL.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+            style="background-color:black;">
+            <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/voto.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sistema de Voto Electrónico</h3>
+                                <p class="white-text">Este sistema permite la elección de la junta directiva de alguna organización. 
+                                    El administrador puede gestionar los puestos, candidatos, y ver resultados. Herramientas utilizadas: PHP, JavaScript, HTML5, CSS3, Bootstrap, MySQL.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/bizagi2.gif" alt="Firma" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sistema Firma digital</h3>
+                                <p class="white-text">Aplicación web implementada a partir del modelo del proceso "Firmas de actas" 
+                                    de una institución de educación superior.
+                                    Realizado en equipo, con Bizagi Modeler, Bizagi Studio y SQLServer para Rediseñar y automatizar este proceso.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img style="margin-top: 10px;" class="img-responsive" src="imgs/gallery/tara.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">Sistema de Pedidos</h3>
+                                <p class="white-text">Sistema web de pedidos para un Resto-Bar. Manejo de roles de cocina, 
+                                    mozo y administrador. Actualización en tiempo real de estados según la entrega de pedidos y roles. Herramientas utilizadas: PHP, JavaScript, HTML5, CSS3, Bootstrap, AJAX, MySQL. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img width='150' style="margin: 10px auto;" class="img-responsive" src="imgs/gallery/pomo.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">App Android Pomodoro</h3>
+                                <p class="white-text">Consiste en 25 minutos de trabajo o "pomodoro" y a continuación un tiempo de descanso de 5 minutos, luego del cuarto "pomodoro", el descanso es de 10 minutos. 
+                                    Para esta aplicación usé la clase de Android CountDownTimer, MediaPlayer y la librería RingProgressBar.  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 project"
+                style="background-color:black;">
+                <img width='150' style="margin: 10px auto;" class="img-responsive" src="imgs/gallery/secre.gif" alt="Pedidos" srcset="">
+                <div class="screen">
+                    <div class="row full-height middle-xs">
+                        <div class="col-xs-12">
+                            <div class="box">
+                                <h3 class="dancingScript white-text subtitle">App Secretaria</h3>
+                                <p class="white-text">Esta aplicación facilita la
+                                        redacción de documentos desde cualquier dispositivo móvil a
+                                        través de plantillas de documentos administrativos para
+                                        su edición en tiempo real. Realizado en equipo para un Instituto. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="top-space--2 black big-padding white-text full-height" id="Contactame">
+        <div class="row middle-xs full-height">
+            <div class="col-xs-12">
+                <div class="box">
+                    <form action="https://formspree.io/yesel1601@hotmail.com" class="step-form" id="my-form"
+                        method="POST">
+                        <div class="row center-xs">
+                            <div class="col-xs-12">
+                                <div class="box">
+                                    <p class="subtitle">Contáctame</p>
+                                </div>
+                            </div>
+                            <div class="col-xs-2 col-md-1 text-right">
+                                <div class="box">
+                                    <div class="active path-step" data-position="1"></div>
+                                    <div class="path-step" data-position="2"></div>
+                                    <div class="path-step" data-position="3"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-5">
+                                <div class="box">
+                                    <div class="fieldset step active">
+                                        <input class="input" name="email" placeholder="Coloca tu correo electrónico"
+                                            required type="email">
+                                    </div>
+                                    <div class="fieldset step">
+                                        <input class="input" name="name" placeholder="¿Cuál es tu nombre?" required
+                                            type="text">
+                                    </div>
+                                    <div class="fieldset step">
+                                        <textarea class="input" name="body" placeholder="¿En qué podemos ayudarte?"
+                                            required></textarea>
+                                        <p class="small text-left" id="info"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <footer>
+        <div class="container-fluid">
+          <div class="social text-center">
+            <ul>
+              <li><span title="Github"><a href="https://github.com/YesseniaEliH" target="_blank"><img src="imgs/gallery/github.png" alt="" srcset=""></a></span></li>
+              <li><span title="Linkedin"><a href="https://www.linkedin.com/in/yessenia-eliana-huam%C3%A1n-atencio-858b4013b/" target="_blank"><img src="imgs/gallery/linked.png" alt="" srcset=""></a></span></li>
+            </ul>
+          </div>
+          <center> <p>YesseniaHuamán &copy; 2019. All rights reserved.</p></center>
+        </div>
+    </footer>
+    <!--Start of Tawk.to Script-->
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5cae2b50c1fe2560f3fe30fb/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+</body>
+
+</html>
